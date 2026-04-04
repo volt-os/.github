@@ -1,1 +1,50 @@
 # VoltOS
+
+## Features
+- [ ] Camera Access
+- [ ] Speech-to-text typing
+- [ ] Samsung Magician type storage manager
+- [ ] AI Image features
+	- [ ] SAM for images
+	- [ ] Layering of segments from SAM
+	- [ ] completion of image (i.e. after removal of segment)
+	- [ ] Super Resolution
+- [ ] Display Screen Manager/Settings
+- [ ] Built-in Chatbot
+	- [ ] Access to models over internet
+	- [ ] Chatbot has access to MCP tools
+	- [ ] ==Chatbot has access to device==
+- [ ] Dynamic Panels
+	- [ ] Calendar
+	- [ ] System Stats & Performance (CPU, Mem, CPU Temp, GPU, GPU Temp)
+	- [ ] Date & Time
+	- [ ] Weather & Temperature
+	- [ ] Network Manager
+		- [ ] WiFi
+		- [ ] BlueTooth
+		- [ ] Firewall
+		- [ ] Proxy
+		- [ ] VPN
+	- [ ] Settings
+	- [ ] Recycle Bin
+	- [ ] Battery
+	- [ ] Shutdown, etc
+	- [ ] Media Control & Brightness
+		- [ ] Spotify
+	- [ ] Application search
+	- [ ] Notifications
+	- [ ] Some sort of Workflow Builder
+		- [ ] Maybe Cron Job or smthng
+	- [ ] Recording Center
+		- [ ] OBS
+	- [ ] To Do Section
+	- [ ] Games (Check Lutris)
+		- [ ] Solitaire
+		- [ ] Minesweeper
+		- [ ] Snake
+	- [ ] Performance Profiles (Gaming/Work/Battery-Saving)
+	- [ ] LAN Chat/Sharing
+	- [ ] Device Manager
+	- [ ] Integrated "Quickshell" Store ==(MAYBE)==
+	- [ ] Clipboard
+	- [ ] Dynamic Alt + Tab Thingy
