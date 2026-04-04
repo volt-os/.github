@@ -1,6 +1,8 @@
 # VoltOS
 
 ## Features
+> [!IMPORTANT]
+> Most features are disabled by default and can be installed for free via the Marketplace for
 - [ ] Camera Access
 - [ ] Speech-to-text typing
 - [ ] Samsung Magician type storage manager
