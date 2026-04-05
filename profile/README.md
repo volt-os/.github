@@ -1,10 +1,7 @@
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/MohammadYehya/volt-os.github/main/gitassets/VoltOS_nobg.png" alt="VoltOS" width="200"/>
-
 <br/>
-<br/>
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=42&duration=1&pause=1000&color=58E1FF&center=true&vCenter=true&repeat=false&width=500&height=60&lines=VOLT+OS"/>
   <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=42&duration=1&pause=1000&color=58E1FF&center=true&vCenter=true&repeat=false&width=500&height=60&lines=VOLT+OS"/>
@@ -24,18 +21,11 @@
 
 </div>
 
-<br/>
-
 ---
-
-<br/>
-
 <div align="center">
-
+  
 ## 〔 The Vision 〕
-
 </div>
-
 <br/>
 
 > **VoltOS** is not a reskin. It is a rethinking.
@@ -44,20 +34,10 @@
 >
 > No bloat inherited. No opinions forced. No ceiling on what you can build with it.
 
-<br/>
-
----
-
-<br/>
-
 <div align="center">
-
+  
 ## 〔 Core Pillars 〕
-
 </div>
-
-<br/>
-
 <table>
 <tr>
 <td width="33%" valign="top" align="center">
@@ -78,200 +58,106 @@ Every window open, close, move, and workspace transition is deliberate. Hyprland
 
 **CUSTOMIZABILITY**
 
-QuickShell gives you QML — a real language, not a config file. Rewrite the bar. Rebuild the launcher. Redesign the lock screen from scratch. VoltOS hands you every component and says: *make it yours.*
+QuickShell gives you QML, a real language, not a config file. Rewrite the bar. Rebuild the launcher. Redesign the lock screen from scratch. VoltOS hands you every component and says: *make it yours.*
 
 </td>
 </tr>
 </table>
 
-<br/>
-
----
-
-<br/>
-
 <div align="center">
-
-## 〔 The Stack 〕
-
+  
+## 〔 Under the Hood 〕
 </div>
 
-<br/>
+> [!NOTE]
+> The technical foundation of VoltOS is still being finalized. What you see here reflects the current direction, not a locked-in decision. Some components are confirmed, others are under active evaluation.
 
-VoltOS is built around a curated set of tools chosen for performance, composability, and long-term hackability. The stack is not final — some decisions are still being evaluated — but the direction is clear.
+At its core, VoltOS pairs **Arch Linux** as the rolling-release base with **Hyprland** as its Wayland compositor, handling everything from tiling logic to the spring-physics animations the desktop is built around. The desktop shell itself is powered entirely by **QuickShell**, using <abbr title="Qt Modeling Language — a declarative language for designing user interfaces">QML</abbr> to give every surface of the UI a programmable, themeable identity.
 
-<br/>
+Beyond that, decisions around the display manager, notification daemon, audio stack, and system tooling are being weighed carefully. The goal is coherence over comprehensiveness, every piece that ships will have a reason for being there.
 
-| Layer | Planned Technology | Notes |
-|---|---|---|
-| Base | Arch Linux | Rolling release, minimal, no hand-holding |
-| Compositor | Hyprland | Wayland, tiling, GPU-accelerated animation |
-| Desktop Shell | QuickShell | QML-powered, fully scriptable |
-| Package Manager | pacman + AUR helper | Full Arch ecosystem access |
-| Audio | PipeWire | Low-latency, modern audio stack |
-| Network | NetworkManager | Being evaluated |
-| Display Manager | TBD | Lightweight, Wayland-native options under review |
-| Notifications | TBD | Likely handled natively by QuickShell |
-| Lock Screen | TBD | Custom QuickShell implementation or hyprlock |
-
-<br/>
-
----
-
-<br/>
 
 <div align="center">
-
+  
 ## 〔 The Marketplace 〕
-
 </div>
 
-<br/>
+VoltOS ships with a curated base of software — everything needed to get started, nothing that wasn't asked for. But the real extensibility comes through the **VoltOS Marketplace**: a first-class, built-in application for discovering and installing everything beyond the defaults.
 
-VoltOS ships with a curated base of software — everything you need to get started, nothing you didn't ask for. But the real power comes after first boot.
+The Marketplace operates on two tiers:
 
-The **VoltOS Marketplace** is the built-in hub for everything beyond the base install. It is not a package manager wrapper. It is a first-class application — designed, integrated, and shipped as part of the desktop.
+<dl>
+  <dt><strong>Verified Apps</strong></dt>
+  <dd>Software reviewed, tested, and approved by the VoltOS team. These are guaranteed to integrate cleanly with the desktop, meet a baseline quality bar, and behave predictably. Install with confidence.</dd>
+  <dt><strong>Community Apps</strong></dt>
+  <dd>Packages, themes, shell components, and extensions submitted by the community. Clearly surfaced as community-sourced, with ratings, flags, and open contribution. The marketplace grows with the people who use it.</dd>
+</dl>
 
-<br/>
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**Verified Apps**
-
-Software reviewed, tested, and approved by the VoltOS team. Guaranteed to integrate cleanly with the shell and meet a baseline quality standard. Safe to install. No surprises.
-
-</td>
-<td width="50%" valign="top">
-
-**Community Apps**
-
-Packages, themes, shell components, and extensions built and published by the community. Clearly marked as community-sourced. Install knowing what you're getting. Rate, flag, and contribute back.
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-The Marketplace is still in active design. If you have opinions on how it should work, open a [Discussion](https://github.com/MohammadYehya/volt-os.github/discussions).
-
-<br/>
-
----
-
-<br/>
+> [!IMPORTANT]
+> The Marketplace is in active design and has not shipped yet. If you have thoughts on how discovery, verification, or submission should work — open a [Discussion](https://github.com/MohammadYehya/volt-os.github/discussions). This is the right time to shape it.
 
 <div align="center">
 
 ## 〔 Installation 〕
-
 </div>
 
-<br/>
+> [!WARNING]
+> VoltOS does not have a stable installer or a bootable ISO yet. There is no supported installation path at this stage. Attempting to set it up from the current repository is possible, but expect rough edges, missing pieces, and things that change without notice.
 
-> **VoltOS is in active development.** A proper installer and ISO are not yet available. What follows is the anticipated setup path — expect it to change.
+When installation is ready, the experience will be straightforward — a script that takes a clean Arch base and lands you in a fully configured VoltOS desktop. A guided ISO installer is planned further down the line.
 
-<br/>
-
-The planned installation flow:
-
-1. Start from a clean Arch Linux base install
-2. Clone the VoltOS configuration repository
-3. Run the setup script — it handles packages, configs, fonts, services, and defaults
-4. Log out and back in to your new desktop
-
-```bash
-# Anticipated — not yet stable
-git clone https://github.com/MohammadYehya/volt-os.github.git
-cd volt-os.github
-./install.sh
-```
-
-A bootable ISO with a guided installer is planned for a later milestone. Watch the [Releases](https://github.com/MohammadYehya/volt-os.github/releases) page.
-
-<br/>
-
----
-
-<br/>
+For now: watch the [Releases](https://github.com/MohammadYehya/volt-os.github/releases) page, or follow development in [Discussions](https://github.com/MohammadYehya/volt-os.github/discussions). Things are moving.
 
 <div align="center">
 
 ## 〔 Roadmap 〕
-
 </div>
 
-<br/>
+Development is organized loosely into three phases. What's done is done. What's in progress is being actively worked. What's planned is real — just not yet.
 
-| Status | Milestone |
-|---|---|
-| Done | Hyprland base configuration |
-| Done | QuickShell bar and system tray |
-| Done | App launcher |
-| Done | Lock screen |
-| In Progress | Automated install script |
-| In Progress | NVIDIA compatibility |
-| Planned | Marketplace — first release |
-| Planned | Verified app catalogue |
-| Planned | Community submission pipeline |
-| Planned | Bootable ISO with guided installer |
-| Planned | Custom GRUB theme |
-| Planned | VoltOS settings panel |
+**Foundation** &nbsp;—&nbsp; *in progress*
 
-<br/>
+- [x] Hyprland base configuration
+- [ ] QuickShell bar and system tray
+- [ ] App launcher
+- [ ] Lock screen
+- [ ] Notification system
 
----
+**Core** &nbsp;—&nbsp; *in progress*
 
-<br/>
+- [ ] Automated install script
+- [ ] NVIDIA compatibility
+- [ ] VoltOS settings panel
+- [ ] Stable, reproducible configuration layer
+
+**Release** &nbsp;—&nbsp; *planned*
+
+- [ ] Marketplace — first public release
+- [ ] Verified app catalogue
+- [ ] Community submission pipeline
+- [ ] Bootable ISO with guided installer
+- [ ] Custom GRUB theme
 
 <div align="center">
 
 ## 〔 Contributing 〕
-
 </div>
 
-<br/>
+VoltOS is an open project. Contributions are welcome at every level — code, design, documentation, bug reports, and feedback all move it forward.
 
-VoltOS is an open project and contributions are welcome at every level — code, design, documentation, bug reports, and feedback all move it forward.
+The process is the standard GitHub fork-and-pull-request flow. Fork the repository, create a branch, make your changes with clear commit messages, and open a PR. If you're not sure where to start, check the open [Issues](https://github.com/MohammadYehya/volt-os.github/issues) or read through the [Discussions](https://github.com/MohammadYehya/volt-os.github/discussions) to get a feel for where things stand.
 
-```bash
-git clone https://github.com/YOUR_USERNAME/volt-os.github.git
-cd volt-os.github
-git checkout -b feature/your-idea
-
-git commit -m "feat: describe your change clearly"
-git push origin feature/your-idea
-# Open a Pull Request
-```
-
-If you are not sure where to start, check the open [Issues](https://github.com/MohammadYehya/volt-os.github/issues) or start a [Discussion](https://github.com/MohammadYehya/volt-os.github/discussions).
-
-<br/>
-
----
-
-<br/>
+Contributions that aren't code are just as valuable. If you find the documentation lacking, fix it. If a bug is driving you mad, report it with enough context to reproduce it. If you've built something on top of VoltOS worth sharing, the community tab is for you.
 
 <div align="center">
 
 ## 〔 License 〕
-
 </div>
-
-<br/>
 
 VoltOS is distributed under the **GNU General Public License v3.0**.
 
 Free to use. Free to modify. Free to distribute — as long as it stays open.
 See [LICENSE](./LICENSE) for the full terms.
-
-<br/>
-
----
-
-<br/>
 
 <div align="center">
 
@@ -280,8 +166,6 @@ See [LICENSE](./LICENSE) for the full terms.
 [![Issues](https://img.shields.io/github/issues/MohammadYehya/volt-os.github?style=flat-square&color=F38BA8)](https://github.com/MohammadYehya/volt-os.github/issues)
 &nbsp;&nbsp;
 [![Forks](https://img.shields.io/github/forks/MohammadYehya/volt-os.github?style=flat-square&color=A6E3A1)](https://github.com/MohammadYehya/volt-os.github/fork)
-
-<br/>
 
 <sub>Fast. Fluid. Yours.</sub>
 
