@@ -76,7 +76,12 @@ Beyond that, decisions around the display manager, notification daemon, audio st
 ## 〔 The Marketplace 〕
 </div>
 
-VoltOS ships with a curated base and extends through the **VoltOS Marketplace**, a built-in hub for discovering and installing everything beyond the defaults. Apps come in two tiers: **Verified** (reviewed and tested by the team) and **Community** (user-submitted, clearly labeled with ratings and flags).
+After first boot, the Marketplace is the first thing you interact with. The base install has no launcher, no bar, no notification system. You pick what goes on your desktop and install it from here.\
+The Marketplace operates on two tiers:\
+**Verified**
+:   Reviewed, tested, and approved by the VoltOS team. Guaranteed to integrate cleanly with the desktop and behave predictably.\
+**Community**
+:   Packages, themes, shell components, and extensions submitted by the community. Clearly marked as community-sourced, with ratings and open contribution.
 
 > [!IMPORTANT]
 > The Marketplace is in active design and has not shipped yet. If you have thoughts on how discovery, verification, or submission should work, open a [Discussion](https://github.com/MohammadYehya/volt-os.github/discussions). This is the right time to shape it.
@@ -102,29 +107,46 @@ Items are grouped by what they belong to, not by timeline. Status is noted where
 
 **Core**  -  *what the distro ships with by default*
 
-- [x] Hyprland base configuration
+- [x] Minimal Hyprland base configuration
 - [ ] QuickShell bar and system tray
+- [ ] Marketplace app
+- [ ] Automated install script (clean Arch base → full VoltOS desktop)
+- [ ] Bootable ISO with guided installer
+
+**Marketplace & Plugins**  -  *the extensibility layer*
+
 - [ ] App launcher
 - [ ] Lock screen
 - [ ] Notification system
 - [ ] VoltOS settings panel
-- [ ] Stable, reproducible configuration layer
-- [ ] NVIDIA compatibility
-
-**Marketplace & Plugins**  -  *the extensibility layer*
-
-- [ ] Marketplace app — first public release
-- [ ] Verified app catalogue
-- [ ] Community submission pipeline
-- [ ] Theme browser
-- [ ] QuickShell component library (community-contributed QML modules)
-
-**Installation & Distribution**  -  *getting VoltOS onto a machine*
-
-- [ ] Automated install script (clean Arch base → full VoltOS desktop)
-- [ ] Bootable ISO with guided installer
-- [ ] Custom GRUB theme
-
+- [ ] Dynamic Alt+Tab switcher
+- [ ] Clipboard manager
+- [ ] Date & Time
+- [ ] Calendar
+- [ ] Battery
+- [ ] Shutdown / Power menu
+- [ ] Media Control/Integration (i.e. Spotify, etc) & Brightness
+- [ ] System Stats & Performance (CPU, RAM, Temp, GPU, GPU Temp)
+- [ ] Performance Profiles (Gaming / Work / Battery-Saving)
+- [ ] Network Manager (WiFi, Bluetooth, Firewall, Proxy, VPN)
+- [ ] Device Manager
+- [ ] Display Screen Manager / Settings
+- [ ] Recycle Bin
+- [ ] Weather & Temperature
+- [ ] To Do
+- [ ] LAN Chat & File Sharing
+- [ ] Workflow Builder (cron-based task automation)
+- [ ] Recording Center (OBS integration)
+- [ ] Storage Manager (inspired by Samsung Magician)
+- [ ] Games (Solitaire, Minesweeper, Snake, Lutris for broader library, etc)
+- [ ] Camera Access
+- [ ] Speech-to-text typing
+- [ ] Built-in Chatbot (internet model access, MCP tools, device access)
+- [ ] AI Image Tools:
+  - [ ] Segment selection (SAM)
+  - [ ] Segment layering
+  - [ ] Image completion after segment removal
+  - [ ] Super Resolution
 
 <div align="center">
 
