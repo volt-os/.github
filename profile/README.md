@@ -105,7 +105,7 @@ For now: watch the [Releases](https://github.com/MohammadYehya/volt-os.github/re
 
 VoltOS development is split into two primary phases: establishing the **Core Foundation** and building the **Modular Marketplace**. Our progress is tracked in detail, from base system configuration to user-facing plugins.
 
-**Core**  -  *what the distro ships with by default*
+**Core**  -  *what the distro ships with by default*\
 **Marketplace & Plugins**  -  *the extensibility layer*
 
 [**View the full development roadmap →**](./ROADMAP.md)
