@@ -103,50 +103,12 @@ For now: watch the [Releases](https://github.com/MohammadYehya/volt-os.github/re
 ## 〔 Roadmap 〕
 </div>
 
-Items are grouped by what they belong to, not by timeline. Status is noted where it's known.
+VoltOS development is split into two primary phases: establishing the **Core Foundation** and building the **Modular Marketplace**. Our progress is tracked in detail, from base system configuration to user-facing plugins.
 
 **Core**  -  *what the distro ships with by default*
-
-- [x] Minimal Hyprland base configuration
-- [ ] QuickShell bar and system tray
-- [ ] Marketplace app
-- [ ] Automated install script (clean Arch base → full VoltOS desktop)
-- [ ] Bootable ISO with guided installer
-
 **Marketplace & Plugins**  -  *the extensibility layer*
 
-- [ ] App launcher
-- [ ] Lock screen
-- [ ] Notification system
-- [ ] VoltOS settings panel
-- [ ] Dynamic Alt+Tab switcher
-- [ ] Clipboard manager
-- [ ] Date & Time
-- [ ] Calendar
-- [ ] Battery
-- [ ] Shutdown / Power menu
-- [ ] Media Control/Integration (i.e. Spotify, etc) & Brightness
-- [ ] System Stats & Performance (CPU, RAM, Temp, GPU, GPU Temp)
-- [ ] Performance Profiles (Gaming / Work / Battery-Saving)
-- [ ] Network Manager (WiFi, Bluetooth, Firewall, Proxy, VPN)
-- [ ] Device Manager
-- [ ] Display Screen Manager / Settings
-- [ ] Recycle Bin
-- [ ] Weather & Temperature
-- [ ] To Do
-- [ ] LAN Chat & File Sharing
-- [ ] Workflow Builder (cron-based task automation)
-- [ ] Recording Center (OBS integration)
-- [ ] Storage Manager (inspired by Samsung Magician)
-- [ ] Games (Solitaire, Minesweeper, Snake, Lutris for broader library, etc)
-- [ ] Camera Access
-- [ ] Speech-to-text typing
-- [ ] Built-in Chatbot (internet model access, MCP tools, device access)
-- [ ] AI Image Tools:
-  - [ ] Segment selection (SAM)
-  - [ ] Segment layering
-  - [ ] Image completion after segment removal
-  - [ ] Super Resolution
+[**View the full development roadmap →**](./ROADMAP.md)
 
 <div align="center">
 
